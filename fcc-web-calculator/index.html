@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>FCC: Web Calculator</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <canvas id="canvas"></canvas>
+<div class="calculator">
+  <div class="heading">
+    <h1>FreeCodeCamp - Calculator App</h1>
+  </div>
+  <form class="content">
+    <div class="display">
+      <output name="result" id="result" for="1 2 3 4 5 6 7 8 9 0 dot onOff plus minus times divide mod clr reset equal">0</output>
+      <div class="resets">
+        <button type="button" id="clr" name="clr" value="clr">←</button><br>
+        <button type="button" id="reset" name="reset" value="reset">X</button>
+      </div>
+    </div>
+    <div class="operations">
+      <button type="button" id="plus" name="plus" value="+">+</button>
+      <button type="button" id="minus" name="minus" value="-">-</button>
+      <button type="button" id="times" name="times" value="×">×</button>
+      <button type="button" id="divide" name="divide" value="÷">÷</button>
+      <button type="button" id="mod" name="mod" value="mod">mod</button>
+    </div>
+    <div class="numbers">
+      <button type="button" id="7" name="7" value=7>7</button>
+      <button type="button" id="8" name="8" value=8>8</button>
+      <button type="button" id="9" name="9" value=9>9</button>
+      <button type="button" id="4" name="4" value=4>4</button>
+      <button type="button" id="5" name="5" value=5>5</button>
+      <button type="button" id="6" name="6" value=6>6</button>
+      <button type="button" id="1" name="1" value=1>1</button>
+      <button type="button" id="2" name="2" value=2>2</button>
+      <button type="button" id="3" name="3" value=3>3</button>
+      <button type="button" id="0" name="0" value=0>0</button>
+      <button type="button" id="dot" name="dot" value=".">.</button>
+      <button type="submit" id="equal" name="equal" value="=" autofocus>=</button>
+    </div>
+  </form>
+</div>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
